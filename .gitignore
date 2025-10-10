@@ -1,0 +1,21 @@
+/target/
+/.vscode/
+*.iml
+*.class
+*.log
+*.DS_Store
+
+# Local compiled classes output directory used by the repo
+# Ignore the out/ folder which stores .class files created during local compilation
+out/
+
+# lib/ contains third-party jars (e.g. junit-platform-console-standalone). Two common options:
+# 1) Commit lib/ into the repo so tests run without extra download steps (simpler for students).
+# 2) Do NOT commit jar files and instead declare dependencies via a build tool (Maven/Gradle) or
+#    provide a script to download them. This keeps the repo smaller and avoids checking binaries in.
+#
+# Recommendation for this project: keep lib/ committed if you don't use Maven/Gradle and want
+# tests to run out-of-the-box. If you plan to use a build tool, remove lib/ from the repo and
+# add a rule to ignore it below.
+# To ignore lib/ uncomment the following line:
+# lib/
